@@ -61,6 +61,33 @@ namespace GreetingCard.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream Civil_War_Drummer__SoundBible_com_700036269 {
+            get {
+                return ResourceManager.GetStream("Civil_War_Drummer__SoundBible_com_700036269", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream Electronic_Chime_KevanGC_495939803 {
+            get {
+                return ResourceManager.GetStream("Electronic_Chime_KevanGC_495939803", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream glass_ping_Go445_1207030150 {
+            get {
+                return ResourceManager.GetStream("glass_ping_Go445_1207030150", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap Link_Cover {

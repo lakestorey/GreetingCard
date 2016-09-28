@@ -11,7 +11,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
 namespace GreetingCard
 {
     public partial class greetingCard : Form
@@ -28,12 +27,17 @@ namespace GreetingCard
         {
             Graphics formGraphics = this.CreateGraphics();
             Font tnr16 = new Font("Times New Roman", 16, FontStyle.Bold);
+            Font tnr18 = new Font("Times New Roman", 18, FontStyle.Bold);
             Font castellar7 = new Font("Castellar", 7);
             SolidBrush whiteBrush = new SolidBrush(Color.White);
             SolidBrush blueBrush = new SolidBrush(Color.Blue);
+            SolidBrush redBrush = new SolidBrush(Color.Red);
+            SolidBrush greenBrush = new SolidBrush(Color.Green);
             Pen yellowPen = new Pen(Color.Yellow, 4);
 
             SoundPlayer pewPew = new SoundPlayer(Properties.Resources.Pew_Pew_DKnight556_1379997159);
+            SoundPlayer pingSound = new SoundPlayer(Properties.Resources.glass_ping_Go445_1207030150);
+            SoundPlayer drummingSound = new SoundPlayer(Properties.Resources.Civil_War_Drummer__SoundBible_com_700036269);
 
             formGraphics.Clear(Color.Black);
 
@@ -48,7 +52,8 @@ namespace GreetingCard
             formGraphics.FillEllipse(whiteBrush, 99, 150, 10, 10);
             pewPew.Play();
             Thread.Sleep(100);
-            formGraphics.DrawString("The Crux", tnr16, whiteBrush, 90, 40);
+            formGraphics.DrawString("The Crux", tnr16, redBrush, 90, 40);
+            formGraphics.DrawString("The Crux", tnr16, greenBrush, 90, 40);
             formGraphics.DrawString("The crux is a constellation located in the", castellar7, blueBrush, 130, 70);
             formGraphics.DrawString("southern sky in a bright portion of the milky", castellar7, blueBrush, 130, 85);
             formGraphics.DrawString("way. The Crux is bordered by Centaurus on", castellar7, blueBrush, 130, 100);
@@ -57,9 +62,10 @@ namespace GreetingCard
             formGraphics.DrawString("From the south hemisphere.", castellar7, blueBrush, 130, 145);
             Thread.Sleep(100);
 
-            for (int i = 0; i <=255; i++)
+            for (int i = 0; i <=10; i++)
             {
-                
+                drummingSound.Play();
+                Thread.Sleep(1000);
             }
         }
     }

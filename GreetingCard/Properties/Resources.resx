@@ -293,4 +293,13 @@
   <data name="Pew_Pew_DKnight556_1379997159" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Pew_Pew-DKnight556-1379997159.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="Civil_War_Drummer__SoundBible_com_700036269" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Civil War Drummer -SoundBible.com-700036269.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Electronic_Chime_KevanGC_495939803" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Electronic_Chime-KevanGC-495939803.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="glass_ping_Go445_1207030150" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\glass_ping-Go445-1207030150.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
 </root>

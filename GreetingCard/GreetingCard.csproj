@@ -92,6 +92,15 @@
   <ItemGroup>
     <None Include="Resources\Pew_Pew-DKnight556-1379997159.wav" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\glass_ping-Go445-1207030150.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Electronic_Chime-KevanGC-495939803.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Civil War Drummer -SoundBible.com-700036269.wav" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
