@@ -18,6 +18,7 @@ namespace GreetingCard
         public greetingCard()
         {
             InitializeComponent();
+            //sets backgroundimage to resized photo from resources
             var bmp = new Bitmap(GreetingCard.Properties.Resources.stars);
             Bitmap starsCover = new Bitmap(bmp, new Size(440, 227));
             this.BackgroundImage = starsCover;
